@@ -16,7 +16,7 @@ public class OrangehrmLogin {
 		
 		driver.manage().window().maximize();
 		
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		
 		WebElement username = driver.findElement(By.xpath("//input[@name='username']"));
 		WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
